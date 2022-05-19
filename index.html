@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE Shot Photography</title>
+</head>
+
+<!-- <link href="url('../fonts/akaya-telivigala-v20-latin-regular.woff')" format( 'woff')> -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        /* font-family: 'Akaya Telivigala';*/
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/LRM_EXPORT_20200815_181403-01.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .left {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(197, 32, 32); */
+    }
+    
+    .left img {
+        width: 232px;
+    }
+    
+    .left div {
+        line-height: 19px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(170, 112, 112);*/
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(111, 141, 108); */
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    
+    .navbar li a:hover
+    /*,
+    .navbar li a.active*/
+    
+    {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: grey;
+    }
+    
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 102%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/20201027_190515.png" alt="">
+            <div> They_call_me.photographer </div>
+        </div>
+
+        <!--mid box for navigation-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">E-Mail Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1> Join Us Right Now </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Interested Jonner">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Insta ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Portfolio">
+            </div>
+            <button class="btn">Submit
+
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
